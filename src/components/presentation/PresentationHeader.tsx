@@ -42,11 +42,8 @@ export const PresentationHeader: React.FC<PresentationHeaderProps> = ({
       {/* Left: Engineering Tracks Brand */}
       <div className="flex items-center gap-3">
         <div className="flex items-center gap-2">
-          {/* Custom SVG Logo representation */}
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-orange to-red-600 flex items-center justify-center shadow-lg shadow-brand-orange/20 border border-white/20">
-            <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
-            </svg>
+          <div className="h-9 px-2 py-1 rounded-xl bg-white/95 flex items-center justify-center shadow-lg shadow-black/30 border border-white/20">
+            <img src="/logo.png" alt="Engineering Tracks" className="h-7 w-auto object-contain" />
           </div>
           <div>
             <div className="flex items-center gap-1.5 leading-none">

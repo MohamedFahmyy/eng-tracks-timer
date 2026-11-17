@@ -50,11 +50,8 @@ export const DashboardLayout: React.FC = () => {
         
         {/* Brand & Studio Title */}
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-orange to-red-600 flex items-center justify-center shadow-md shadow-brand-orange/20 border border-white/20">
-            <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-              <rect x="3" y="3" width="18" height="18" rx="2" />
-              <line x1="16.5" y1="3" x2="16.5" y2="21" />
-            </svg>
+          <div className="h-10 px-2 py-1 rounded-xl bg-white/95 flex items-center justify-center shadow-md shadow-black/30 border border-white/20">
+            <img src="/logo.png" alt="Engineering Tracks" className="h-8 w-auto object-contain" />
           </div>
           <div>
             <div className="flex items-center gap-1.5 leading-none">

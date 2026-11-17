@@ -53,18 +53,23 @@ export const PresentationScreen: React.FC<PresentationScreenProps> = ({ isEmbedd
 
               {/* Discreet Topic Title Badge (Opposite of timer, minimal digital signage header) */}
               <div className="absolute top-4 left-4 sm:top-6 sm:left-6 z-20 pointer-events-none max-w-lg">
-                <div className="px-3 py-1.5 rounded-xl bg-black/60 backdrop-blur-md border border-white/10 text-white shadow-lg">
-                  <div className="flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-brand-orange animate-pulse" />
-                    <h1 className="text-xs sm:text-sm font-bold truncate">
-                      {config.mode === 'break' ? config.breakMessage : config.sessionTitle}
-                    </h1>
+                <div className="px-3 py-1.5 rounded-xl bg-black/60 backdrop-blur-md border border-white/10 text-white shadow-lg flex items-center gap-2.5">
+                  <div className="w-7 h-7 rounded-lg bg-white/95 p-0.5 flex items-center justify-center flex-shrink-0 shadow-sm border border-white/20">
+                    <img src="/logo-emblem.png" alt="Engineering Tracks" className="w-full h-full object-contain" />
                   </div>
-                  {config.subtitle && (
-                    <p className="text-[10px] text-slate-300 truncate mt-0.5 ml-4">
-                      {config.mode === 'break' ? config.breakSubtitle : config.subtitle}
-                    </p>
-                  )}
+                  <div>
+                    <div className="flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-brand-orange animate-pulse" />
+                      <h1 className="text-xs sm:text-sm font-bold truncate">
+                        {config.mode === 'break' ? config.breakMessage : config.sessionTitle}
+                      </h1>
+                    </div>
+                    {config.subtitle && (
+                      <p className="text-[10px] text-slate-300 truncate mt-0.5 ml-2.5">
+                        {config.mode === 'break' ? config.breakSubtitle : config.subtitle}
+                      </p>
+                    )}
+                  </div>
                 </div>
               </div>
 
