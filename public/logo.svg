@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 90" fill="none">
+  <defs>
+    <linearGradient id="engGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00" />
+      <stop offset="100%" stop-color="#FF3E00" />
+    </linearGradient>
+  </defs>
+  <!-- Gear Icon Accent -->
+  <g transform="translate(10, 15)">
+    <path d="M25 5 L35 5 L37 13 C39 14 41 15 43 17 L51 13 L58 20 L54 28 C55 30 56 32 57 34 L65 36 L65 46 L57 48 C56 50 55 52 54 54 L58 62 L51 69 L43 65 C41 67 39 68 37 69 L35 77 L25 77 L23 69 C21 68 19 67 17 65 L9 69 L2 62 L6 54 C5 52 4 50 3 48 L-5 46 L-5 36 L3 34 C4 32 5 30 6 28 L2 20 L9 13 L17 17 C19 15 21 14 23 13 Z" fill="url(#engGrad)"/>
+    <circle cx="30" cy="41" r="14" fill="#0B0F19"/>
+    <circle cx="30" cy="41" r="8" fill="url(#engGrad)"/>
+  </g>
+  <!-- Typography -->
+  <text x="85" y="44" font-family="'Inter', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="2">ENGINEERING</text>
+  <text x="85" y="72" font-family="'Inter', sans-serif" font-weight="800" font-size="24" fill="#FF5A00" letter-spacing="5">TRACKS</text>
+</svg>
